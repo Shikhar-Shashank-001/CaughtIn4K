@@ -1,58 +1,124 @@
-# CaughtIn4K
-# Automated Quality Inspection Using Computer Vision
+# 🎯 CaughtIn4K  
+## Automated Quality Inspection Using Computer Vision  
 
-## Overview
-This project implements an Automated Quality Inspection system using Computer Vision techniques. The system analyzes product images using a Convolutional Neural Network (CNN) to detect defects and classify products as defective or non-defective. The goal is to reduce manual inspection effort, improve accuracy, and increase efficiency in quality control processes.
+---
 
-## Objectives
-- Automate the quality inspection process
-- Reduce human errors in inspection
-- Improve inspection speed and consistency
-- Provide reliable defect detection using deep learning
+## 📌 Overview  
 
-## System Description
-The system accepts product images as input, preprocesses them, and applies a trained CNN model to identify defects. The output includes the inspection result along with visual feedback highlighting defective regions.
+**CaughtIn4K** is an Automated Quality Inspection system that leverages **Computer Vision** and **Deep Learning** to detect product defects automatically.
 
-## Architecture
-Image Input → Image Preprocessing → CNN Model → Defect Detection → Result Display
+The system uses a **Convolutional Neural Network (CNN)** to classify products as:
 
-## Technologies Used
-- Programming Language: Python  
-- Computer Vision: OpenCV  
-- Deep Learning: TensorFlow / Keras  
-- Model: Convolutional Neural Network (CNN)  
-- Platform: Windows / Linux  
+- ✅ Non-Defective  
+- ❌ Defective  
 
-## Features
-- Automated image-based inspection
-- Defect classification (Defective / Non-Defective)
-- Visual representation of inspection results
-- Data storage for inspection records
-- Scalable and modular design
+This reduces manual inspection effort, minimizes human error, and improves quality control efficiency.
 
-## Functional Requirements
-- The system shall accept product images for inspection.
-- The system shall preprocess images automatically.
-- The system shall detect defects using a CNN.
-- The system shall display inspection results.
+---
 
-## Non-Functional Requirements
-- High accuracy and reliability
-- Fast processing time
-- Scalability for larger datasets
-- Secure data handling
+## 🚀 Objectives  
 
-## Applications
-- Manufacturing quality control
-- Electronics and automotive inspection
-- Textile and material defect detection
-- Industrial automation systems
+- Automate visual inspection  
+- Reduce human dependency  
+- Improve detection accuracy  
+- Increase inspection speed  
+- Ensure consistent quality assessment  
 
-## Future Enhancements
-- Real-time inspection
-- Multi-defect classification
-- Explainable AI with heatmaps
-- Cloud and edge deployment
+---
 
-## Conclusion
-This project demonstrates the use of computer vision and deep learning for automated quality inspection. It provides a reliable and efficient alternative to manual inspection methods and aligns with modern Industry 4.0 practices.
+## 🧠 System Workflow  
+
+```mermaid
+graph LR
+A[Image Input] --> B[Preprocessing]
+B --> C[CNN Model]
+C --> D[Defect Classification]
+D --> E[Result Display]
+```
+
+---
+
+## 🏗️ Architecture  
+
+```text
+Image Input
+     ↓
+Image Preprocessing
+     ↓
+CNN Model
+     ↓
+Defect Detection
+     ↓
+Result Display & Storage
+```
+
+---
+
+## 🛠️ Tech Stack  
+
+| Category | Technology |
+|----------|------------|
+| Language | Python |
+| Computer Vision | OpenCV |
+| Deep Learning | TensorFlow / Keras |
+| Model | Convolutional Neural Network |
+| OS Support | Windows / Linux |
+
+---
+
+## ✨ Features  
+
+- 📷 Image-based automated inspection  
+- 🤖 CNN-based defect detection  
+- 📊 Prediction confidence score  
+- 🗂️ Inspection log storage  
+- 🔍 Optional defect heatmaps  
+
+---
+
+## 📋 Functional Requirements  
+
+- The system shall accept product images as input.  
+- The system shall preprocess images automatically.  
+- The system shall detect defects using a trained CNN model.  
+- The system shall display classification results with confidence score.  
+- The system shall store inspection logs.  
+
+---
+
+## ⚙️ Non-Functional Requirements  
+
+- **Accuracy:** High classification accuracy  
+- **Performance:** Fast processing time per image  
+- **Scalability:** Handle large datasets  
+- **Reliability:** Consistent results under varying conditions  
+- **Security:** Secure inspection data handling  
+
+---
+
+## 🏭 Applications  
+
+- Manufacturing quality control  
+- Electronics inspection  
+- Automotive part inspection  
+- Textile and material defect detection  
+- Smart factory automation  
+
+---
+
+## 🔮 Future Enhancements  
+
+- Real-time camera-based inspection  
+- Multi-class defect classification  
+- Self-supervised anomaly detection  
+- Explainable AI using Grad-CAM  
+- Cloud-based centralized monitoring  
+- Edge deployment for on-device inspection  
+
+---
+
+## 📌 Conclusion  
+
+**CaughtIn4K** demonstrates how **Computer Vision** and **Deep Learning** can modernize traditional inspection systems. By automating defect detection using CNN-based classification, the system enhances accuracy, efficiency, and scalability while supporting Industry 4.0 initiatives.
+
+---
